@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 50px auto;
+}
+
+header {
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+header ul.nav {
+  font-weight: 600;
+  float: right;
+  list-style: none;
+}
+
+header ul.nav li {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+header ul.nav li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header ul.nav li:hover {
+  opacity: 0.5;
+}
+
+header span.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-div {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.native-text {
+  margin-top: 10px;
+}
+
+.home-div2 {
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: auto;
+  text-align: center;
+}
+
+.open-courses-button {
+  margin-top: 20px;
+  font-size: 1.5em;
+  margin-left: 15px;
+}
+
+.register-div,
+.login-div,
+.profile-div {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  border: 1px solid #222;
+  padding: 10px;
+  box-sizing: content-box;
+  width: 50%;
+  margin-left: 300px;
+}
+
+.change-div{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  border: 1px solid #222;
+  padding: 10px;
+  box-sizing: content-box;
+  width: 50%;
+  margin-left: 300px;
+}
+
+.register-label-mail,
+.register-label-pass,
+.login-label-mail,
+.login-label-pass,
+.profile-label-info,
+.profile-courses-info,
+.change-label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 50%;
+  font-weight: 600;
+}
+
+.register-label-mail input,
+.register-label-pass input,
+.login-label-mail input,
+.login-label-pass input{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.button-register,
+.button-login,
+.changeButton-profile,
+.myCoursesButton-profile,
+.exCoursesButton-profile,
+.exitButton-profile{
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+}
